@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_gray">#3e3e3e</color>
+	<color name="light_gray">#868686</color>
+	
+	<color name="white">#FFFFFF</color>
+    <color name="black">#130C0E</color>
+    
+    <color name="gravy">#F0F0F0</color>
+    <color name="Silver">#CCCCCC</color>
+    <color name="cyan">#99c535</color>
+    <color name="tan">#31302f</color>
+    <color name="tan2">#7f7474</color>
+    
+</resources>

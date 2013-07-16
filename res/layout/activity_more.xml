@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.tty.vdaijia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/Silver">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_white_bg"
+        android:layout_margin="15dp"
+        >
+        <com.tty.vdaijia.view.OptionItemView
+            android:id="@+id/serviceLine"
+            app:optionName="服务热线"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+        </com.tty.vdaijia.view.OptionItemView>
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rect_white_bg"
+        android:layout_margin="15dp"
+        >
+        <com.tty.vdaijia.view.OptionItemView
+            android:id="@+id/apkUpdate"
+            app:optionName="检查更新"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+        </com.tty.vdaijia.view.OptionItemView>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cutline_bg">
+        </LinearLayout>
+        <com.tty.vdaijia.view.OptionItemView
+            android:id="@+id/suggest"
+            app:optionName="意见反馈"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+        </com.tty.vdaijia.view.OptionItemView>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cutline_bg">
+        </LinearLayout>
+        <com.tty.vdaijia.view.OptionItemView
+            android:id="@+id/aboutMe"
+            app:optionName="关于我们"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+        </com.tty.vdaijia.view.OptionItemView>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cutline_bg">
+        </LinearLayout>
+        <com.tty.vdaijia.view.OptionItemView
+            android:id="@+id/serviceTerms"
+            app:optionName="服务协议"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+        </com.tty.vdaijia.view.OptionItemView>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_white_bg"
+        android:layout_margin="15dp"
+        >
+        <com.tty.vdaijia.view.OptionItemView
+            android:id="@+id/joinUs"
+            app:optionName="集团客户加盟"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+        </com.tty.vdaijia.view.OptionItemView>
+	</LinearLayout>
+	
+</LinearLayout>
